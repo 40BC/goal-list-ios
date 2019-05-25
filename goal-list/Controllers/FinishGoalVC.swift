@@ -14,6 +14,7 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var pointsTextField: UITextField!
     @IBOutlet weak var createGoalButton: UIButton!
     
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
     var goalDescription: String!
     var goalType: GoalType!
     
